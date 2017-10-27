@@ -1,0 +1,222 @@
+﻿/********************************** init ************************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/**********************************************************************/
+body {
+    color: #000;
+    font-family:  'Microsoft YaHei';
+    border: 0;
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+    max-width: 750px;
+}
+.clearfix:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#main {
+    width: 750px;
+    position: relative;
+}
+/*logo*/
+#main .logo{
+    width: 100%;
+}
+
+/*flow*/
+#main .flow{
+    width: 100%;
+    margin-bottom: 60px;
+}
+    /*title*/
+#main .flow .title{
+    font-size: 32px;
+    width: 100%;
+    height: 140px;
+    line-height: 140px;
+    display: flex;
+    justify-content: center;
+}
+#main .flow .title .join1{
+    margin-top: 50px;
+    margin-right: 20px;
+    width: 80px;
+    height: 40px;
+    background-size: 80px 40px ;
+    background: url("../img/join1.png") no-repeat center;
+}
+#main .flow .title .join2{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 80px;
+    height: 40px;
+    background-size: 80px 40px ;
+    background: url("../img/join2.png") no-repeat center;
+}
+/*chart*/
+.chart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.join{
+    width: 5%;
+    height: 83px;
+    background: url("../img/join.png") no-repeat 2px 10px;
+}
+.chart-pub .content{
+    margin-top: 26px;
+    font-size: 22px;
+    color: #7c7c7c;
+}
+/*text*/
+#main .flow .text{
+    line-height: 48px;
+    margin-top: 45px;
+    font-size: 24px;
+    text-align: center;
+    color: #999999;
+}
+/*photo*/
+#main .flow .photo{
+    margin-top: 38px;
+    margin-bottom: 30px;
+}
+/*details*/
+/*#main .details{
+    width: 100%;
+}*/
+#main .details-pub{
+    margin: 35px ;
+    background-color: #266c6c;
+    position: relative;
+}
+#main .details-pub .detail-feed,
+#main .details-pub .detail-meat,
+#main .details-pub .detail-food,
+#main .details-pub .detail-shiming{
+    padding-top: 30px;
+}
+
+#main .details-pub span{
+    width: 50px;
+    height: 50px;
+    border-bottom-right-radius:100%;
+
+    background-color: white;
+    position: absolute;
+    top: -1px;
+    left: 0;
+}
+#main .details-pub #semicircle{
+    width: 43px;
+    height: 43px;
+    overflow: hidden;
+}
+#main .details-pub .details-logo{
+    position: absolute;
+    top: -14px;
+    left:  -14px;
+}
+#main .details-pub .details-logo img{
+    width: 60px;
+    height: 60px;
+}
+#main .details-pub .details-content{
+    margin: 0 auto;
+    padding-bottom: 30px !important;
+    width: 70%;
+}
+#main .details-pub .details-content:before{
+    content: '';
+    clear: both;
+    display: block;
+}
+#main .details-pub .details-content img{
+    width: 100%;
+    height: auto;
+}
+
+#main .details-pub .details-content h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #fffefe;
+    text-align: left;
+}
+#main .details-pub .details-content  p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #fffefe;
+    text-align: left;
+    margin-bottom: 30px;
+}
+#main .details-pub .details-content .qrcode{
+    width: 100%;
+    height: 200px;
+    margin: 30px auto;
+    background-color: #fff;
+    overflow: hidden;
+}
+#main .details-pub .details-content .qrcode .ma1,
+#main .details-pub .details-content .qrcode .ma2{
+    width: 40%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 12px;
+    line-height: 1.6;
+    color: black;
+}
+
+
+
+
+
+
